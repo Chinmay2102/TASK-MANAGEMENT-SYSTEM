@@ -123,7 +123,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",   # React dev server
+    "http://localhost:5173",   # React dev server
 ]
 
 REST_FRAMEWORK = {
