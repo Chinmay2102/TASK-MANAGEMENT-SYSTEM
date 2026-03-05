@@ -1,0 +1,9 @@
+from django.shortcuts import render
+from rest_framework import viewsets
+from .models import Task
+from .serializers import Taskserializer
+# Create your views here.
+
+class taskviewset(viewsets.ModelViewSet):
+    queryset=Task.objects.all()
+    serializer_class=Taskserializer
